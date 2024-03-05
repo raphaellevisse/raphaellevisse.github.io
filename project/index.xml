@@ -14,11 +14,11 @@
     
     <item>
       <title>Risk-Aware Planning</title>
-      <link>https://raphaellevisse.github.io/project/risk_aware_planning/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 -0700</pubDate>
+      <link>https://raphaellevisse.github.io/project/robot_serpent/</link>
+      <pubDate>2023</pubDate>
       
-      <guid>https://raphaellevisse.github.io/project/risk_aware_planning/</guid>
-      <description>In order to assist the patient efficiently, we develop a risk-aware planning framework which finds the best manipulation plan that minimizes the fall risk probability with minimum robot effort. We view the risk-aware planning problem from the perspective of probabilistic inference and solve it as a multi-objective optimization problem. For the fall risk objective, we use a linear combination of expected value and CVaR to minimize the overall risk of fall while avoiding even low probabilities of high fall risks.</description>
+      <guid>https://raphaellevisse.github.io/project/robot_serpent/</guid>
+      <description>In order to research state-of-the-art locomotion techniques, we developed a robotic serpent and engineered dynamic models and control algorithms to mimick serpent locomotion on sand dunes.</description>
     </item>
     
     <item>

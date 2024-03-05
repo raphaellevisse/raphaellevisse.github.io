@@ -9,7 +9,7 @@ type: "widget_page"  # Page type is a Widget Page
 | Date                            | Description                    |
 | --------------------------------| ------------------------------ |
 |   September 2023  |Joined [Squishy Robotics](https://squishy-robotics.com/) for my Capstone Project on the mobile robot development team|
-|   August 2023     |Beginning of a Mechanical Engineering in Robotics and Controls at UC Berkeley|
+|   August 2023     |Beginning of my Mechanical Engineering Master in Robotics and Controls at UC Berkeley|
 |   2022-2023       |Developed a robotic serpent to study locomotion on granular substrates at FAST Lab (CNRS)|
 |   January 2022    |Worked at [NeuroPsi CNRS](https://neuropsi.cnrs.fr/en/homepage/) on developing a prosthetic arm to be controlled via brain-computer interface for mice|
 |   July 2021       |Joined Centrale Paris for a Msc in Applied Mathematics after having ranked top 2% at the Competitive Exam|
