@@ -474,7 +474,7 @@ a[data-fancybox] img {
 }
 
 .home-section {
-  background-color: #eaf2f8;
+  background-color: #acafac;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -1541,7 +1541,7 @@ a.badge:hover {
 }
 
 .navbar-toggler {
-  color: #eaf2f8 !important;
+  color: #acb4ab !important;
 }
 
 .navbar-light .navbar-toggler:focus,
@@ -1560,12 +1560,12 @@ nav#navbar-main li.nav-item {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #eaf2f8;
+  color: #acb4ab;
   font-weight: 600;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
-  color: #eaf2f8;
+  color: #acb4ab;
   background-color: transparent;
 }
 
@@ -1595,7 +1595,7 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-toggler .icon-bar {
-  background-color: #eaf2f8 !important;
+  background-color: #acb4ab !important;
 }
 
 .dropdown-menu {
@@ -1608,7 +1608,7 @@ nav#navbar-main li.nav-item {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #eaf2f8;
+  color: #acb4ab;
   white-space: nowrap;
 }
 
@@ -1632,19 +1632,19 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>.open>a:focus,
 .navbar-light .navbar-nav>.open>a:hover,
 .navbar-light .navbar-nav>.open>a:visited {
-  color: #eaf2f8 !important;
+  color: #acb4ab !important;
   background-color: #033b32 !important;
 }
 
 .navbar-light .navbar-brand {
   font-weight: bold;
   font-size: 1.2em;
-  color: #eaf2f8;
+  color: #acb4ab;
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-  color: #eaf2f8;
+  color: #acb4ab;
   background-color: transparent;
 }
 
@@ -1686,7 +1686,7 @@ nav#navbar-main li.nav-item {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #eaf2f8;
+    color: #acb4ab;
     white-space: nowrap;
   }
 
@@ -1702,7 +1702,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #eaf2f8;
+    color: #acb4ab;
   }
 
   .navbar-light .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1714,7 +1714,7 @@ nav#navbar-main li.nav-item {
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:focus,
   .navbar-light .navbar-nav .open .dropdown-menu >.nav-item> .active:hover {
-    color: #7fb3d5;
+    color: #848885;
     background-color: transparent;
   }
 
