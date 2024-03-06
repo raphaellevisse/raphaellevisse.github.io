@@ -1148,11 +1148,11 @@ article .article-metadata {
 
 .experience .m-2 .border,
 .experience .col.border-right {
-  border-color: #1f618d !important;
+  border-color: #033b32 !important;
 }
 
 .experience .m-2 .border.exp-fill {
-  background-color: #1f618d !important;
+  background-color: #033b32 !important;
 }
 
 /*************************************************
@@ -1532,7 +1532,7 @@ a.badge:hover {
 }
 
 .navbar-light {
-  background: #1f618d !important;
+  background: #033b32 !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1570,14 +1570,14 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: #7fb3d5;
+  color: #9fa3a0;
   background-color: transparent;
 }
 
 .navbar-light .navbar-nav>li.nav-item>a.active,
 .navbar-light .navbar-nav>li.nav-item>a.active:focus,
 .navbar-light .navbar-nav>li.nav-item>a.active:hover {
-  color: #7fb3d5;
+  color: #9fa3a0;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1599,7 +1599,7 @@ nav#navbar-main li.nav-item {
 }
 
 .dropdown-menu {
-  background-color: #1f618d !important;
+  background-color: #033b32 !important;
 }
 
 .dropdown-menu > li > a {
@@ -1633,7 +1633,7 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav>.open>a:hover,
 .navbar-light .navbar-nav>.open>a:visited {
   color: #eaf2f8 !important;
-  background-color: #1f618d !important;
+  background-color: #033b32 !important;
 }
 
 .navbar-light .navbar-brand {
