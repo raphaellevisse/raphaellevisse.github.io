@@ -13,10 +13,10 @@
   
     
   
-  <meta name="description" content="Robotic serpent for granular substrate locomotion analysis">
+  <meta name="description" content="MPC Control for Inchworming Rover">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://raphaellevisse.github.io/project/robot_serpent/">
+  <link rel="alternate" hreflang="en-us" href="https://raphaellevisse.github.io/course_project/MPC_rover/">
 
   
 
@@ -62,16 +62,16 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://raphaellevisse.github.io/project/robot_serpent/">
+  <link rel="canonical" href="https://raphaellevisse.github.io/course_project/MPC_rover">
 
   
  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="">
-  <meta property="og:url" content="https://raphaellevisse.github.io/project/robot_serpent/">
+  <meta property="og:url" content="https://raphaellevisse.github.io/course_project/MPC_rover">
   <meta property="og:title" content="Robotic Serpent| ">
-  <meta property="og:description" content="Locomotion analysis on granular substrates"><meta property="og:image" content="https://raphaellevisse.github.io/project/robot_serpent/featured.jpg">
+  <meta property="og:description" content="Locomotion analysis on granular substrates"><meta property="og:image" content="https://raphaellevisse.github.io/course_project/MPC_roverfeatured.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2024">
@@ -79,7 +79,7 @@
   <meta property="article:modified_time" content="2024">
   
 
-  <title>Robotic Serpent</title>
+  <title>MPC for Inchworming Rover</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -214,8 +214,8 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/project/robot_serpent/featured.jpg');"></div>
-  <span class="article-header-caption">The robotic serpent</span>
+  <div class="featured-image" style="background-image: url('/course_project/MPC_rover/featured.jpg');"></div>
+  <span class="article-header-caption"></span>
 </div>
 
 
@@ -223,7 +223,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">Robotic Serpent</h1>
+        <h1 itemprop="name">MPC Rover</h1>
 
         
 
@@ -273,15 +273,15 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/project/robot_serpent/featured.jpg" itemprop="image" alt="">
-        <span class="article-header-caption">The robotic serpent</span>
+        <img src="/course_project/MPC_roverfeatured.jpg" itemprop="image" alt="">
+        <span class="article-header-caption">MPC Rover</span>
       </div>
     </div>
   </div>
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">Robotic Serpent</h1>
+  <h1 itemprop="name">MPC Rover</h1>
 
   
 
@@ -328,18 +328,20 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>In granular environments, objects encounter complex interactions due to the dualistic nature of granular media which exhibit both solid-like and fluid-like behaviors.</p>
-        
-      <p>Under stress, granular materials deform elastically like a solid, yet begin to flow like a fluid when a certain stress threshold is surpassed. Significant variations in momentum and volume fraction across different regions of granular media lead to intricate multiphase system dynamics.</p>
+      <p>We employed Model Predictive Control (MPC) to provide optimized rover control inputs for efficient inchworming on a slope.</p>
+
+      <p>We devised state equations to simplify the intricate dynamics of a push-pull rover.</p>
       
-      <p>These conditions have historically constrained modeling to discrete particle methods, as opposed to fluids where Navier-Stokes equations can be applied. Particularly problematic is the propulsion across sandy surfaces, hindered by phenomena such as sand trapping and skidding.  prominent example is the Curiosity rover on Mars, which can be immobilized for hours on the planet’s dusty terrain. Therefore, robots specifically designed for granular locomotion are being developed, equipped with integrated circuits that enable them to implement directives based on sensor data, thereby optimizing their movement by adapting to the environmental conditions. </p>
-      
-      <p>Our study focuses on granular media consisting of particles larger than 100 micrometers, such as sand, gravel, and grains. We delve into the problematic nature of locomotion in such environments, drawing inspiration from the natural world. Snakes across the globe exhibit a range of strategies to navigate diverse terrains, including solid ground, ocean surfaces, tropical forests, and deserts. In particular, certain serpent species adeptly traverse sandy landscapes through a combination of lateral undulations and elevations of their body segments.</p>
-      
-      <p> This project investigates the types of movements that enable snakes to efficiently move across sandy environments, with implications for robotics that can inform the development of mechanisms for improved navigation in granular media.</p>
+      <p>Through numerical experiments and different parameters, MPC showed an interesting approach combining push pull and wheel speed to optimize movement depending on input and state constraints.</p>
 
     </div>
 
+    <div class="col-8">
+      <div class="split-header-image">
+        <img src="/course_project/MPC_rover/energy_photo.png" itemprop="image" class="centeredImage">
+        <span class="article-header-caption">Open and Closed Loop positions (angular) of arms and wheels.</span>
+      </div>
+    </div>
     
 
 
